@@ -16,4 +16,10 @@ public class TestController {
         System.out.println("color set other color");
         return "pink";
     }
+
+    @GetMapping("delColor")
+    public String colorDelController() {
+        System.out.println("del color");
+        return "pink";
+    }
 }
