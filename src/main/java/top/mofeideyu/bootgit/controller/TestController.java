@@ -10,4 +10,10 @@ public class TestController {
     public String colorControl() {
         return "red";
     }
+
+    @GetMapping("resetColor")
+    public String colorUpdateController() {
+        System.out.println("color set other color");
+        return "pink";
+    }
 }
