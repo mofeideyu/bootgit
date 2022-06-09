@@ -10,4 +10,9 @@ public class TestController {
     public String colorControl() {
         return "red";
     }
+
+    @GetMapping("userInfo")
+    public String getUserInfo() {
+        return "users";
+    }
 }
