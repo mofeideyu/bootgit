@@ -11,6 +11,18 @@ public class TestController {
         return "red";
     }
 
+    @GetMapping("resetColor")
+    public String colorUpdateController() {
+        System.out.println("color set other color");
+        return "pink";
+    }
+
+    @GetMapping("delColor")
+    public String colorDelController() {
+        System.out.println("del color");
+        return "pink";
+    }
+
     @GetMapping("userInfo")
     public String getUserInfo() {
         return "users";
