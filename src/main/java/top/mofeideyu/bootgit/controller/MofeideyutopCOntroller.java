@@ -15,4 +15,9 @@ public class MofeideyutopCOntroller {
     public String resetInfo() {
         return "reset ok";
     }
+
+    @GetMapping("restMofeitop2")
+    public String resetInfo2() {
+        return "reset ok";
+    }
 }
