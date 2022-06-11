@@ -10,4 +10,9 @@ public class MofeideyutopCOntroller {
     public String getMofeideyutopInfo() {
         return "mofeideyutop is ok";
     }
+
+    @GetMapping("restMofeitop")
+    public String resetInfo() {
+        return "reset ok";
+    }
 }
