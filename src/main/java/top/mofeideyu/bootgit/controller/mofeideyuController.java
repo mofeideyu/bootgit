@@ -10,4 +10,10 @@ public class mofeideyuController {
     public String getMoFeiInfo() {
         return "mofeideyu is ok";
     }
+
+    @GetMapping("reset")
+    public String resetInfo() {
+        return "reset ok";
+    }
+
 }
