@@ -25,4 +25,9 @@ public class MofeideyutopCOntroller {
     public String resetCode() {
         return "resetCode ok";
     }
+
+    @GetMapping("resetCommit")
+    public String resetCommit() {
+        return "resetCommit ok";
+    }
 }
