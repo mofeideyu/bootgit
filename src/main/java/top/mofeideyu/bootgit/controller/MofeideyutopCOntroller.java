@@ -20,4 +20,9 @@ public class MofeideyutopCOntroller {
     public String resetInfo2() {
         return "reset ok";
     }
+
+    @GetMapping("resetCode")
+    public String resetCode() {
+        return "resetCode ok";
+    }
 }
