@@ -10,4 +10,9 @@ public class mofeideyuController {
     public String getMoFeiInfo() {
         return "mofeideyu is ok";
     }
+
+    @GetMapping("mofeideyu2")
+    public String getMoFeiInfo2() {
+        return "mofeideyu2 is ok";
+    }
 }
